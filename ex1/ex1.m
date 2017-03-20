@@ -1,3 +1,4 @@
+
 %% Machine Learning Online Class - Exercise 1: Linear Regression
 
 %  Instructions
@@ -121,6 +122,7 @@ figure;
 % Plot J_vals as 15 contours spaced logarithmically between 0.01 and 100
 contour(theta0_vals, theta1_vals, J_vals,logspace(-2,3,20))
 xlabel('\theta_0'); ylabel('\theta_1');
+
 hold on;
 plot(theta(1), theta(2), 'rx', 'MarkerSize', 10, 'LineWidth', 2)
 plot(thetamat(:,1),thetamat(:,2));
