@@ -1,4 +1,4 @@
-%% Machine Learning Online Class - Exercise 2: Logistic Regression
+% Machine Learning Online Class - Exercise 2: Logistic Regression
 %
 %  Instructions
 %  ------------
@@ -107,7 +107,8 @@ fprintf('Expected theta (approx):\n');
 fprintf(' -25.161\n 0.206\n 0.201\n');
 
 % Plot Boundary
-plotDecisionBoundary(theta, X, y);
+%plotDecisionBoundary(theta, X, y);
+plotDB(theta, X, y);
 
 % Put some labels 
 hold on;

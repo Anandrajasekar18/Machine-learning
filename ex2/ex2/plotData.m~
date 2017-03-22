@@ -5,16 +5,16 @@ function plotData(X, y)
 
 % Create New Figure
 figure; hold on;
+[X,Y]=meshgrid(X(1),X(2));
+plot(X(1),X(2),'r0');
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: Plot the positive and negative examples on a
 %               2D plot, using the option 'k+' for the positive
 %               examples and 'ko' for the negative examples.
-p=(y==1);
-n=(y==0);
-plot(X(p,1),X(p,2),'ro');
+%
 
-plot(X(n,1),X(n,2),'kx');
+
 
 
 
